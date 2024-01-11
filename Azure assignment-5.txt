@@ -1,0 +1,12 @@
+                               assignment-5
+
+1)To optimize performance for large fact tables, it is recommended to use hash-distributed tables.
+ Hash-distribution improves query performance on large fact tables.
+
+2) He should have to create external data source.
+
+3)Round-robin.
+
+4)We need to create an external file format and external table using the external data source.
+ We should load the data using the CREATE TABLE AS SELECT statement.
+5)No.

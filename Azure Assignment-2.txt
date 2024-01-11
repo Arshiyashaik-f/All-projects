@@ -1,0 +1,55 @@
+                         Assignment-2
+
+
+1)NoSQL databases are often better suited to storing and modeling structured, semi-structured
+and unstructured data in one database.
+
+2)#Key-value
+ #Document
+ #Columnar
+ #Graph
+ #Time series
+ #Object data stores
+ #External index data stores.
+
+3)Columnar data stores
+
+student ID    Column family :Identity
+
+001           First name:Anir
+              Last name:vivah
+
+002           First name:Shaik
+              Last name:Arshi
+
+StudentID     Column Family: Subject & Marks details
+
+001           English:80
+              Maths:90
+
+002          English:50
+             Maths:70
+
+
+
+4) We can store all types of data in NOSQL.Main features in NOSQL are (1)Flexible data stores
+                                                                      (2)Rapid data growth and Scalability
+                                                                      (3)Concurrent performance.
+
+5)What is data lake storage in Azure?
+Azure Data Lake Storage is a cloud-based, enterprise data lake solution. 
+It's used to store massive amounts of data in any format, and to facilitate big data analytical workloads.
+it's components are defined mechanisms to catalog, and secure data.
+The security features such as encryption, access control, and auditing to ensure the privacy and protection of your data
+
+
+6)The data shapes for Graph data stores are Nodes & Entities.
+Nodes means Entities and Edges means the relationship between entities.
+The data shapes for object data stores are Images, Text files, Vedios and Audios.
+
+
+
+
+
+
+

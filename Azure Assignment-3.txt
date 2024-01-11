@@ -1,0 +1,41 @@
+                               Assignment-3
+
+
+1)Azure Cosmos DB is a fully managed NoSQL and relational database for modern app development including AI, e-commerce, Internet of Things and other types of soluAzure Cosmos DB offers single-digit millisecond response times, automatic and instant scalability, along with guaranteed speed at any scale.
+The features of CosmosDB are (1) Trunkey global distribution
+                             (2)Elastic scale of storage & throughput
+                             (3)Guarenteed low Latency at the 99th percentile
+                             (4)Firewall defined consistency models.
+
+2)Azure blob storage is useful for
+(1) Storing files for distributed access.
+(2)Serving images & documents directly to the browser.
+(3)Streaming vedios&Audios.
+
+
+3)There are 3 types of data partitioning.
+#Horizontal Partitioning
+ In this data is divided into shards. Each Shord holds the contigeous range of Shord keys i.e., A-G and H-Z organised alphabetically.
+ #Vertical Partitioning
+ In this fields are divided into their use. High frequently accesed fields placed in one vertical partition and less frequently used fields are placed in onother vertical partition.
+ #Functional Partitioning
+The data is aggregated according to how it is used by each bounded context in the system. ex. in e-commerce invoice data can be stored in one partition and product data can be stored in another partition.
+
+4)consistency leviels in Azure Cosmos DB are 
+Eventual: Here the data is written on the primary node and is propagated eventually to read-only secondary nodes. It might take some time for the users to get updated data.
+Consistent Prefix: Clients can read data in the same order as it is written. 
+Session: Users who just committed the data will be able to see it but it will take some time for the others to get that data version. 
+Bounded Staleness: Here a staleness period can be set, for which the data won’t be replicated into the secondary nodes.
+Strong: This offers the latest copy of data for all the users but gives a relatively low performance. 
+
+
+
+
+
+
+
+
+
+
+
+
